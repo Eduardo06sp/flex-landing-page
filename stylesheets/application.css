@@ -150,12 +150,27 @@ nav a {
 }
 
 #call-to-action {
+  color: white;
   height: 400px;
 }
 
 #action-box {
   background-color: #3882F6;
-  height: 200px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+#action-box-container {
+  align-items: center;
+  display: flex;
+  height: 180px;
+  justify-content: space-between;
+  width: 80%;
+}
+
+#action-box button {
+  border: 2px white solid;
 }
 
 footer {
