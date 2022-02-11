@@ -10,3 +10,88 @@
 html {
   box-sizing: border-box;
 }
+
+#page-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#nav-container,
+#hero-container,
+#action-box {
+  flex-grow: 1;
+  max-width: 1100px;
+}
+
+nav,
+#hero,
+#quote,
+#call-to-action {
+  align-items: center;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#nav-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+#hero {
+  padding-bottom: 150px;
+  padding-top: 150px;
+}
+
+#hero-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+#hero-description {
+  max-width: 400px;
+}
+
+#showcase {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0 150px 0;
+  text-align: center;
+}
+
+#showcase-images-container {
+  display: flex;
+  max-width: 800px;
+}
+
+#quote {
+  background-color: lightgreen;
+  padding: 150px 0 120px;
+}
+
+#quote-container {
+  max-width: 700px;
+}
+
+#call-to-action {
+  height: 400px;
+}
+
+#action-box {
+  background-color: lightpink;
+  height: 200px;
+}
+
+footer {
+  align-items: center;
+  display: flex;
+  height: 72px;
+  justify-content: center;
+  width: 100%;
+}
