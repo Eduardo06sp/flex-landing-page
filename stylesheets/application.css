@@ -20,6 +20,12 @@ html {
 
 button {
   background-color: #3882F6;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-weight: bold;
+  height: 30px;
+  width: 100px;
 }
 
 #nav-container,
@@ -75,7 +81,11 @@ nav a {
 }
 
 #hero-description {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
   max-width: 400px;
+  row-gap: 6px;
 }
 
 #hero-description p:nth-child(1) {
