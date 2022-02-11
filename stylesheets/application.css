@@ -53,6 +53,16 @@ footer {
   padding-top: 20px;
 }
 
+#nav-links-container {
+  column-gap: 20px;
+  display: flex;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
 #hero {
   padding-bottom: 150px;
   padding-top: 150px;
