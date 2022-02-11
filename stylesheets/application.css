@@ -133,12 +133,20 @@ nav a {
 }
 
 #quote-container {
+  display: flex;
+  flex-direction: column;
   max-width: 700px;
 }
 
 #quote-container p:nth-child(1) {
   font-size: 36px;
   font-style: italic;
+}
+
+#quote-container p:nth-child(2) {
+  align-self: flex-end;
+  font-weight: bold;
+  margin-right: 30px;
 }
 
 #call-to-action {
