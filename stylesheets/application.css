@@ -18,6 +18,10 @@ html {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+button {
+  background-color: #3882F6;
+}
+
 #nav-container,
 #hero-container,
 #action-box {
@@ -30,10 +34,16 @@ nav,
 #quote,
 #call-to-action {
   align-items: center;
-  background-color: lightblue;
   display: flex;
   justify-content: center;
   width: 100%;
+}
+
+nav,
+#hero,
+footer {
+  background-color: #1F2937;
+  color: white;
 }
 
 #nav-container {
@@ -58,11 +68,24 @@ nav,
   max-width: 400px;
 }
 
+#hero-description p:nth-child(1) {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+#hero-description p:nth-child(2) {
+  font-size: 18px;
+}
+
 #showcase {
   display: flex;
   flex-direction: column;
   padding: 30px 0 150px 0;
   text-align: center;
+}
+
+#showcase h2 {
+  font-size: 36px;
 }
 
 #showcase-images-container {
@@ -71,7 +94,7 @@ nav,
 }
 
 #quote {
-  background-color: lightgreen;
+  background-color: #E5E7EB;
   padding: 150px 0 120px;
 }
 
@@ -79,12 +102,17 @@ nav,
   max-width: 700px;
 }
 
+#quote-container p:nth-child(1) {
+  font-size: 36px;
+  font-style: italic;
+}
+
 #call-to-action {
   height: 400px;
 }
 
 #action-box {
-  background-color: lightpink;
+  background-color: #3882F6;
   height: 200px;
 }
 
